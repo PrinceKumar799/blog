@@ -1,3 +1,17 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "The developer's blog"
+theme = "aether"
+
+canonifyurls = true
+paginate = 3
+
+[params]
+    brand = "The developer's blog"
+    description = "aether Hugo theme for blogs"
+    headshotimg = "img/profile.jpg"
+    headshotalt = "Generic grey headshot picture"
+
+[markup]
+  [markup.highlight]
+    style = "igor"
